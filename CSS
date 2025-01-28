@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffe6e6;
+}
+
+.app-container {
+  max-width: 375px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.app-header {
+  background-color: #ff8585;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.search-bar {
+  margin-top: 10px;
+  padding: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+}
+
+.categories, .top-doctors {
+  padding: 20px;
+}
+
+.categories h2, .top-doctors h2 {
+  margin-bottom: 15px;
+}
+
+.category-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-box {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.category-box:hover {
+  transform: scale(1.05);
+}
+
+.category-box img {
+  max-width: 50px;
+  margin-bottom: 5px;
+}
+
+.doctor-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-card {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.doctor-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.app-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #ff8585;
+  color: white;
+}
